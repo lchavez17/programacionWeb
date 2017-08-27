@@ -1,12 +1,19 @@
 body{
   background:#fff
-
 }
 header{
-  width: 1000px;
+  width: 1100px;
   height: 150px;
   background: Aqua;
   padding: 20px;
+}
+footer{
+  width: 1100px;
+  height: 200px;
+  background: Aqua;
+  position:relative;
+  top:-1478px;
+  left:0px;
 }
 #titulo{
   position:relative;
@@ -15,21 +22,13 @@ header{
   width: 500px;
   height: 100px;
 }
-footer{
-  width: 1000px;
-  height: 200px;
-  background: Aqua;
-  position:relative;
-  top:-1478px;
-  left:0px;
-}
 #borde1{
-  width: 1000px;
+  width: 1140px;
   height: 22px;
   background: DodgerBlue ;
 }
 #borde2{
-  width: 1000px;
+  width: 1105px;
   height: 22px;
   background: DodgerBlue ;
 }
