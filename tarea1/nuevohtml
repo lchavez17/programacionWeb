@@ -6,7 +6,7 @@
 		<title>ejercicio 2</title>
 	</head>
 	<body>
-
+investigar
 
 <header>
 	<nav>
@@ -62,7 +62,7 @@
 						<tr>
 								<th>Nombre</th>
 								<th>Edad</th>
-						</tr>						
+						</tr>
 					</thead>
 					<tbody>
 						<tr>
