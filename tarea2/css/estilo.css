@@ -42,7 +42,7 @@ footer{
 #borde2{
   width: 100%;
   height: 22px;
-  background: DodgerBlue ;
+  background:  #5f7f94 ;
 }
 #imagen{
   width: 200px;
@@ -105,4 +105,25 @@ h2{
 }
 .noticiaclass{
   color: blue;
+}
+.nuevo{
+  background-color: black;
+}
+.inicio{
+  background-color: #59b8e6;
+}
+.cursos{
+  background-color: #59b8e6;
+}
+.espacio{
+  background-color: #59b8e6;
+}
+.directorio{
+  background-color: #59b8e6;
+}
+.cursosExt{
+  background-color: #59b8e6;
+}
+.final{
+  background-color: #59b8e6;
 }
