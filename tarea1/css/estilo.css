@@ -2,14 +2,14 @@ body{
   margin:0;
 }
 header{
-  background-color: #fafafa;
+  background-color: green;
   width: 100%;
   padding: 20px;
   margin: 0;
 }
 h1{
   color:#000;
-  text-align: center;
+  text-align: left;
   font-weight: border;
   letter-spacing: 2px;
 }
@@ -19,6 +19,36 @@ section{
   padding: 15px;
 }
 h3{
+
   color: blue;
 
 }
+/*
+comentarios
+*/
+nav.menu_principal{
+  width: 100%;
+}
+  nav.menu_principal ul{
+    list-style: none;
+  }
+    nav.menu_principal ul li{
+      display: inline-block;;
+      width: 20%;
+      text-align: center;
+      background-color: orange;
+      padding: 5px;
+    }
+      nav.menu_principal ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        display: block;
+      }
+        nav.menu_principal ul li a:hover{
+          background-color: #fff;
+
+        }
+          nav.menu_principal ul li:first-child{
+            background-color: pink;
+          }
