@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  </head>
+  <header>
+    <img src="recursos/20170421010425_html5.jpg" alt="" width="250" id="imagen1">
+    <div id="titulo">
+      <h2>Curso de programacion web</h2>
+    </div>
+    <br>
+    <div id="menuheader">
+      <table>
+        <thead>
+          <tr>
+            <th class="inicio"><a href="#tablas">Inicio</a></th>
+            <th class="cursos"><a href="#tablas">Cursos</a></th>
+            <th class="espacio"><a href="#footFinal">Espacio</a></th>
+            <th class="directorio"><a href="#footFinal">Directorio</a></th>
+            <th class="cursosExt"><a href="http://www.udemy.com">Curso Externos</a></th>
+            <th class="final"><a href="#footFinal">About</a></th>
+          </tr>
+        </th>
+        </thead>
+      </table>
+
+    </div>
+  </header>
+  <div id="borde1">
+  </div>
+  <div id="menutop">
+    Seleccione curso
+  </div>
+  <div id="navega">
+    <nav>
+      <ul>
+        <li>
+          <a href="#curso">Curso</a>
+        </li>
+        <li>
+          <a href="#curso2">curso 2</a>
+        </li>
+        <li>
+          <a href="#">curso 3</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div id="noticias" class="noticiaclass">
+    Noticias
+    <p class="nuevo">
+      <h6 >
+        este grupoo de noticias es genial
+      </h6>
+    </p>
+  </div>
+<div id="tablas">
+  <div id="table1">
+    <table width="300" border="1" id="curso">
+      <thead>
+        <tr>
+          <th rowspan="1">
+            <img src="recursos/thumbnail.png" alt="" width="200" id="imgVS">
+            <br><br>
+            <b>Visual Studio</b>
+            <br><br>
+            13 agosto 2017
+            <br>
+              <p>Bien, Java podría ser un buen ejemplo de cómo debería ser un lenguaje de
+              programación. Sin embargo, las aplicaciones Java son buenos ejemplos de cómo las aplicaciones no deberían ser.
+            </p>
+            <div id="info">
+              <a href="https://www.visualstudio.com/">info+</a>
+            </div>
+          </th>
+          <th rowspan="1">
+            <img src="recursos/thumbnail.png" alt="" width="200" id="imgVS">
+            <br><br>
+            <b>Visual Studio</b>
+            <br><br>
+            13 agosto 2017
+            <br>
+              <p>Bien, Java podría ser un buen ejemplo de cómo debería ser un lenguaje de
+              programación. Sin embargo, las aplicaciones Java son buenos ejemplos de cómo las aplicaciones no deberían ser.
+            </p>
+            <div id="info">
+              <a href="https://www.visualstudio.com/">info+</a>
+            </div>
+          </th>
+          <th rowspan="1">
+            <img src="recursos/thumbnail.png" alt="" width="200" id="imgVS">
+            <br><br>
+            <b>Visual Studio</b>
+            <br><br>
+            13 agosto 2017
+            <br>
+              <p>Bien, Java podría ser un buen ejemplo de cómo debería ser un lenguaje de
+              programación. Sin embargo, las aplicaciones Java son buenos ejemplos de cómo las aplicaciones no deberían ser.
+            </p>
+            <div id="info">
+              <a href="https://www.visualstudio.com/">info+</a>
+            </div>
+          </th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <div id="table2">
+    <table width="300" border="1" id="curso2">
+      <thead>
+        <tr>
+          <th rowspan="1">
+            <img src="recursos/thumbnail.png" alt="" width="200" id="imgVS">
+            <br><br>
+            <b>Visual Studio</b>
+            <br><br>
+            13 agosto 2017
+            <br>
+              <p>Bien, Java podría ser un buen ejemplo de cómo debería ser un lenguaje de
+              programación. Sin embargo, las aplicaciones Java son buenos ejemplos de cómo las aplicaciones no deberían ser.
+            </p>
+            <div id="info">
+              <a href="https://www.visualstudio.com/">info+</a>
+            </div>
+          </th>
+          <th rowspan="1">
+            <img src="recursos/thumbnail.png" alt="" width="200" id="imgVS">
+            <br><br>
+            <b>Visual Studio</b>
+            <br><br>
+            13 agosto 2017
+            <br>
+              <p>Bien, Java podría ser un buen ejemplo de cómo debería ser un lenguaje de
+              programación. Sin embargo, las aplicaciones Java son buenos ejemplos de cómo las aplicaciones no deberían ser.
+            </p>
+            <div id="info">
+              <a href="https://www.visualstudio.com/">info+</a>
+            </div>
+          </th>
+          <th rowspan="1">
+            <img src="recursos/thumbnail.png" alt="" width="200" id="imgVS">
+            <br><br>
+            <b>Visual Studio</b>
+            <br><br>
+            13 agosto 2017
+            <br>
+              <p>Bien, Java podría ser un buen ejemplo de cómo debería ser un lenguaje de
+              programación. Sin embargo, las aplicaciones Java son buenos ejemplos de cómo las aplicaciones no deberían ser.
+            </p>
+            <div id="info">
+              <a href="https://www.visualstudio.com/">info+</a>
+            </div>
+          </th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+</div>
+  <br><br><br>
+  </body>
+  <footer>
+    <div id="borde2">
+      <p ALIGN=center> practica mejorada con exito al parecer!!! </p>
+    </div>
+    <br>
+    <div id="footFinal">
+      <table width="500">
+        <thead>
+          <tr>
+            <td>Contacto:</td>
+            <td>
+              enlaces externos:
+            </td>
+          </tr>
+          <tr>
+            <td>Jose Serrano 454 colima colima mexico</td>
+            <td><a href="http://google.com">google</a></td>
+          </tr>
+          <tr>
+            <td>Tel:31255544</td>
+            <td><a href="http://siceuc.ucol.mx">siceuc</a></td>
+          </tr>
+          <tr>
+            <td>Colima, Col, Mexico.</td>
+            <td><a href="http://openbsd.org">obsd</a></td>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <br><br>
+    Copyright (c) 2017 Copyright Ucol All Rights Reserved.
+  </footer>
+</html>
