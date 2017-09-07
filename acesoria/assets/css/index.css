@@ -1,0 +1,15 @@
+h1{
+  color: blue;
+}
+
+header{
+  background-color: #eee
+}
+  header nav{
+    height: 100%;
+    width: 100%;
+  }
+    header nav div.titulo{
+      width: 20%;
+
+    }
