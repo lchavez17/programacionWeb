@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pagina de ejercicios</title>
+        <script type="text/javascript">
+        var dado1=1;
+        var dado2=1;
+        var totalDados=0;
+        var totalDadosAnterior=0;
+        var resultado=0;
+
+        function tirarDados(){
+          num=prompt("Hasta que numero");
+          console.log(num);
+              for (var i = 0; i <num ; i++){
+                resultado=Math.pow((1/2),i);
+                console.log(resultado);
+                resultado=Math.pow(resultado,2);
+                console.log(resultado);
+              }
+              console.log(resultado);
+              return resultado;
+        }
+
+        function limpiar() {
+          console.clear();
+
+        }
+
+         function pedir_numero(){
+            var num='';
+            do{
+              num=prompt('ingrese numero');
+              console.log(num);
+            }while(isNaN(num))
+            return num;
+          }
+
+        function fibonacci() {
+          var i;
+          var num=pedir_numero();
+          var fib = [];
+          fib[0] = 0;
+          fib[1] = 1;
+          for(i=2; i<=num; i++)
+          {
+              fib[i] = fib[i-2] + fib[i-1];
+              console.log(fib[i]);
+          }
+        }
+        </script>
+  </head>
+  <body>
+<button type="button" onclick="tirarDados();" name="button">Tirar dados</button>
+<button type="button" onclick="fibonacci();" name="button">Fibonacci</button>
+<button type="button" onclick="limpiar();" name="button">Limpiar consola</button>
+
+  </body>
+</html>

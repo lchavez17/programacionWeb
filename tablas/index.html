@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <title>Tareilla</title>
+    <script type="text/javascript">
+        var numero = 1;
+
+
+        function agregar(){
+          var nombre = document.getElementById('nombre').value;
+          var apellido = document.getElementById('apellido').value;
+          var ciudad = document.getElementById('ciudad').value;
+
+          if (nombre.trim() != '' && apellido.trim() != '' && ciudad.trim() != ''){
+            var html = '';
+            numero++;
+
+            html += '<tr>';
+              html += '<td class = "numerillo">' + numero + '</td>';
+              html += '<td style="color: red;" class="text-center">' + nombre + '</td>';
+              html += '<td>' + apellido + '</td>';
+              html += '<td>' + ciudad + '</td>';
+              html += '<td>';
+                html += '<a href="javascript: void(0);" style="color: red;" onclick="eliminar(this);" class="">Borrar</a>';
+                // 'This' Manda elemento html en el que se ejecuta
+              html += '</td>';
+            html += '</tr>';
+
+            document.getElementById('tbody').innerHTML += html;
+
+            document.getElementById('nombre').value = '';
+            document.getElementById('apellido').value = '';
+            document.getElementById('ciudad').value = '';
+            document.getElementById('nombre').focus();
+          }
+
+        }
+
+        function eliminar(t){
+            var td = t.parentNode;
+            var tr = td.parentNode;
+            var table = tr.parentNode;
+          //  table.removeChild(tr);
+
+            numero--;
+
+            for(var i = 0; i <= numero; i++){
+                document.getElementsByClassName('numerillo')[i].innerHTML = i + 2;
+            }
+        }
+      </script>
+</head>
+<body>
+    <div class="container">
+        <div class="form row">
+            <div class="col-3">
+                <input type="text" name="" class="form-control" id="nombre" placeholder="Nombre" value="">
+            </div>
+            <div class="col-3">
+                <input type="text" name="" class="form-control" id="apellido" placeholder="Apellido" value="">
+            </div>
+            <div class="col-3">
+                <input type="text" name="" class="form-control" id="ciudad" placeholder="Ciudad" value="">
+            </div>
+            <div class="col-3">
+                <button type="button" onclick="agregar();" class="btn btn-info">
+                    +
+                </button>
+            </div>
+        </div>
+            <table class="table table-bordered col-12">
+            <thead>
+                <tr>
+                    <th>Núm.</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Ciudad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <tr>
+                    <td>1</td>
+                    <td>Edgar</td>
+                    <td>Campos</td>
+                    <td>VA</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            </table>
+    </div>
+</body>
+</html>

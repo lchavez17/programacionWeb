@@ -1,0 +1,21 @@
+header{
+  background-color: #fafafa;
+  border-bottom: 1px solid #ccc;
+  min-height: 150px;
+}
+
+.centrar{
+  float: none;
+  margin: 0 auto;
+}
+
+main{
+  padding: 20px;
+
+}
+
+main .contenedor .formulario{
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  min-height: 300px;
+}

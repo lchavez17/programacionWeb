@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>pagina de javascript
+    </title>
+    <script type="text/javascript">
+    var numero1 = 31.333;
+    var numero2=900;
+    var numero_gde=123e5;
+    var numero_peq=123e-5;
+    var nombre='Leon chavez';
+    var puesto='Profesor';
+    var mensaje1="the edgar'computer";
+    var mensaje2='"hdhdhdhdddd"';
+    console.log(numero1);
+    console.log(numero2);
+    console.log(numero_gde);
+    console.log(numero_peq);
+    console.log(nombre+'-'+puesto);
+    console.log(mensaje1+mensaje2);
+    console.log(typeof(mensaje1));
+    // var nombre;
+    // nombre = prompt('cual es tu nombre');
+    // console.log(nombre);
+    // alert(nombre);
+    function cargando() {
+      alert('Bienvenido');
+    }
+
+    function pedir_numero(){
+      var num='';
+      do{
+        num=prompt('ingrese numero');
+        console.log(num);
+      }while(isNaN(num))
+      return num;
+    }
+    function pedirnumero() {
+      // var num1=prompt('ingrese numero1');
+      // var num2=prompt('inrese numero2');
+      var num1=pedir_numero();
+      var num2=pedir_numero();
+
+    }
+    function sumar(numero1, numero2){
+      return numero1+numero2;
+    }
+    function nombre(){
+      var nombre=prompt('ingrese tu nombre');
+      switch (nombre) {
+        case 'leon':
+        console.log("buen nombre");
+
+          break;
+          case 'vidrio':
+          console.log('un nombre raro');
+
+            break;
+        default:
+
+      }
+    }
+    function vectores(){
+      var mascotas = ['perro','gato','dragon'];
+      mascotas.push(4);
+      console.log(mascotas);
+      mascotas.pop();
+      console.log(mascotas);
+      mascotas.shift();
+      console.log(mascotas);
+      console.log(mascotas.join(' y '))
+
+      var vec1=[1,2,3,4,5];
+      var vec2=[true,2,'hola',56.0,false];
+      var vec3=vec1.concat(vec2);
+      console.log(vec3);
+
+    }
+    </script>
+  </head>
+  <body onload="cargando()">
+<!-- <button type="button" onclick="alert(sumar(5,7));" name="button">sumar</button> -->
+<button type="button" onclick="pedirnumero();" name="button">sumar</button>
+<button type="button" onclick="nombre();" name="button">nombre</button>
+<button type="button" onclick="vectores();" name="button">vector</button>
+
+  </body>
+</html>
